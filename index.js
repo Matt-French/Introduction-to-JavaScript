@@ -34,6 +34,15 @@ Do the following:
    HINT: no function required
 */
 
+let num1 = 10;
+const num2 = 15;
+
+if (num1 === 10){
+let num1 = num2;
+
+console.log(num1)
+  
+}
 
 
 /*
@@ -47,8 +56,10 @@ Do the following:
    HINT: look up the Number method
 */
 
+let ninetynine = '1999';
+const n = Number(ninetynine);
 
-
+console.log(n);
 
 /*
 Task 1d - Multiply
@@ -75,10 +86,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(a){
+    return a * 7;
 }
-
+console.log(dogYears(4));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
